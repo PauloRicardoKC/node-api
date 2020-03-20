@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "60701c8e-f1fd-4bf5-8ea1-7207bc78204f",
+		"name": "Brands API (balta.io)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "[GET] Listar Brands",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/brands",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"brands"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] Listar Brands por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/brands/5e74f87ebfca5f352094ab71",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"brands",
+						"5e74f87ebfca5f352094ab71"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[POST] Criar Brand",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"A1322222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222DSADSADASDSADSDSAKSJDAJAFJFDAJFDJFDJHFDJHFDHJFHHJDHJFDHJFDJHFDSJH\",\n\t\"country\": \"Japão\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/brands/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"brands",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[PUT] Atualizar Brand",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"FERRARI\",\n\t\"country\": \"ITALY 123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/brands/5e74f8cebfca5f352094ab74",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"brands",
+						"5e74f8cebfca5f352094ab74"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[DELETE] Remover Brand",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": \"5e74f8babfca5f352094ab73\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/brands",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"brands"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
