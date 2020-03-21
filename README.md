@@ -6,7 +6,10 @@ Creation of REST API with NodeJS.
   <li>Javascript</li>
   <li>NodeJS</li>    
   <li>MongoDB</li>
-  <li>HTTP verbs GET, POST, PUT, DELETE</li>
+  <li>HTTP verbs [GET, POST, PUT, DELETE]</li>
+  <li>Routes</li>
+  <li>Repositories</li>
+  <li>Validators</li>
 </ul>
 
 <h3>Packages</h3>
