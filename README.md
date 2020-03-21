@@ -20,5 +20,5 @@ Creation of REST API with NodeJS.
 <h3>Setting the environment</h3>
 At the terminal, run the command npm install command to restore the packages.
 
-<h3>Started</h3>
+<h3>Run Application</h3>
 At the terminal, run the command npm run dev. At the Postman, simulate the verbs [GET, POST, PUT, DELETE] to http://localhost:3000/brands or http://localhost:3000/cars. 
